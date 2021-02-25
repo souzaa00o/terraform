@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "domain" {
-  default = "xpto.com.br" // DNS config  >>> SUBSTITUIR O DNS POR "DNS configurado" antes de subir para o git 
+  default = "xpto.com.br" // DNS config 
 }
 
 

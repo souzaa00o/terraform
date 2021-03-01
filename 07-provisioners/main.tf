@@ -34,7 +34,6 @@ resource "aws_instance" "web" {     // Criando instancia ec2
             //timeout = "5m"  // Timeout de 1 minuto
             private_key = "${file("~/Downloads/tf_test.pem")}"  // Caminho da chave local
             host = "aws"
-            //TEMOS QUE COLOCAR O ARGUMENTO HOST, ARGUMENTO OBRIGATORIO
         }
     }
 
@@ -54,7 +53,6 @@ resource "aws_instance" "web" {     // Criando instancia ec2
             //timeout = "5m"  
             private_key = "${file("~/Downloads/tf_test.pem")}"  
             host = "aws"
-            //TEMOS QUE COLOCAR O ARGUMENTO HOST, ARGUMENTO OBRIGATORIO
         }
     }
 }
